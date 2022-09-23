@@ -1,64 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <title> IFSP </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> IFSP: Exercícios </title>
+
 </head>
+
 <body>
 
-    <div id="menu"></div>
+  <h1> Lista de exercicios </h1>
 
-    <a> <b> Cursos </b> </a>
+  <a href="/exercicio01.html">
+    <p> Exercicio 01 </p>
+  </a>
+  <a href="/exercicio02.html">
+    <p> Exercicio 02 </p>
+  </a>
+  <a href="/exercicio03.html">
+    <p> Exercicio 03 </p>
+  </a>
+  <a href="/exercicio04.html">
+    <p> Exercicio 04 </p>
+  </a>
 
-    <ul>  
-      <li> <a href="/curso_ads.html">Análise e Desenvolvimento de Sistemas</a> </li>
-      <li> <a href="/curso_egp.html">Engenharia de Produção</a> </li>
-      <li> <a href="/curso_gti.html">Gestão em Tecnologia da Informação</a> </li>
-      <li> <a href="/curso_letras.html">Letras</a> </li>
-      <li> <a href="/curso_gp.html">Gestão Pública</a></li>
-    </ul>
-    
-    <img src='./src/Logo.jpg' id="imgTopo" alt="Imagem da Logo do IFSP" />
-
-    <p> <b>Eventos</b> </p>
-
-    <img src='./src/SEJA_RARO.jpg' alt="Imagem promocional do evento" width="900" height="600" />
-    <br>
-    <span> Aniversário do IFSP - Pirituba - Palestra Augusto Aielo </span>
-
-    <h2> Sobre a biblioteca </h2>
-
-    <figure> <img src='./src/library.jpeg' alt="Imagem promocional do evento" /> </figure>
-
-    <h2> Conheça os novos títulos disponíveis na nossa biblioteca </h2>
-    <span>Publicado: Quarta-feira, 14 de agosto de 2019</span>
-
-    <h2>Conheça o SUAP</h2>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0" title="Tutorial de Acesso  - SUAP 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <br><br><br>
-
-    <a href="#imgTopo"> <img src='./src/MoveTop.png' alt="Imagem promocional do evento" width="40" height="40" /> </a>
-    
 </body>
 
 <footer>
 
-    <object width="100%" height="180px" data="footer.html"></object>
-  
-    <script>
-        $(document).ready(function(){
-            $.get( "header.html", function( data ) {
-              $( "#menu" ).html( data );
-            });
-        });
-    </script>
-
- 
+  <script src="script.js" defer async charset="utf-8"></script>
 </footer>
+
 </html>

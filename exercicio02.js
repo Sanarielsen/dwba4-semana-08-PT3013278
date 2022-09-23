@@ -1,0 +1,1 @@
+alert("Bem vindo a questão 02")
